@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-nuxt-env",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Vite plugin which works just like env property in Nuxt.js",
   "module": "es/index.js",
   "main": "lib/index.js",
@@ -42,6 +42,7 @@
     "build:es": "tsc --p ./tsconfig.es.json",
     "build:cjs": "tsc",
     "lint": "eslint .",
-    "lintfix": "eslint --fix ."
+    "lintfix": "eslint --fix .",
+    "prepublish": "npm run build"
   }
 }

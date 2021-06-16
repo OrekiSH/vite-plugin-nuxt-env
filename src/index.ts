@@ -149,7 +149,7 @@ export default function replace(options: RollupReplaceOptions = {}) {
   }
 
   return {
-    name: 'nuxt-env',
+    name: 'vite-plugin-nuxt-env',
 
     transform(code: string, id: string) {
       if (!keys.length) return null;
